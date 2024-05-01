@@ -38,35 +38,72 @@
     </header>
 
     <main>
-        <div class="container">
-           <div class="row">
+      <div class="container">
+        <div class="row">
+</div>
 
-           </div>
-            <h1>Mortgage Calculator</h1>
-         </div>
-        
-         <div id="theCalculator">
-          <div class="mb-3">
-              <label class="form-label" for="number1Field">Number 1:</label>
-              <input id="number1Field" class="form-control" type="text">
-          </div>
-          <div class="mb-3">
-              <label class="form-label" for="number2Field">Number 2:</label>
-              <input id="number2Field" class="form-control" type="text">
-          </div>
-          <div class="mb-3">
-              <input id="addBtn" class="btn btn-secondary" type="button" value="Add">
-              <input id="subtractBtn" class="btn btn-secondary" type="button" value="Subtract">
-              <input id="multiplyBtn" class="btn btn-secondary" type="button" value="Multiply">
-              <input id="divideBtn" class="btn btn-secondary" type="button" value="Divide">
-          </div>
-          <div class="mb-3">
-              <label class="form-label" for="answerField">Answer:</label>
-              <input id="answerField" class="form-control" type="text" readonly>
-          </div>
-          <div class="mb-3">
-              <p id="messagePara"></p>
-          </div>
+<div class="row">
+  <div class="col-2">
+    <label class = "col-form-label">Principle:</label>
+  </div>
+
+  <div class="col-3">
+    <div class id="calculate">
+    <div class="input-group">
+      <span class="input-group-text">$</span>
+      <input id="principleTextbox" class= "form control form-control-sm" type= "text"/>
+    </div>
+  </div>
+
+<div class="row mt-4">
+  <div class="col-2">
+    <label class ="col-form-label">Interest Rate:</label>
+  </div>
+</div>
+
+
+<div class="col-3">
+  <div class="input-group">
+    <input id="interestRateTextbox" class="form-control form-control-sm" type = "text"/>
+    <span class = "input-group-text">%</span>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-2">
+    <label class = "col-form-label">Loan Length:</label>
+  </div>
+</div>
+
+
+<div class="col-3">
+  <div class = "input-group">
+    <input class= "form-control form-control-sm" type="text" id="time"/>
+    <span class = "input-group-text">Years</span>
+  </div>
+</div>
+
+<div class="row pt-3">
+  <div class = " col-2 d-grid gap-2">
+    <input id = "calculateButton" class = "btn btn-primary" type = "button" value="Submit"/>
+
+  </div>
+</div>
+
+
+  <div class = "col-2 d grid gap-2">
+    <input class="btn btn-danger" type = "button" value="Reset" id ="resetBtn" class = "ms-3"/>
+    </div>
+
+<div class="row">
+  <div class ="col">
+    <input type="text" readonly class ="form-control-plaintext" id = "output"/>
+  </div>
+
+</div>
+     </div>
+
+       </div>
     
        </main>
 

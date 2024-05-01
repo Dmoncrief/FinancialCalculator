@@ -1,6 +1,6 @@
-#theCalculator{
+#calculate{
     max-width: 400px;
     border:1px solid black;
-    padding:30px;
+    padding:60px;
     text-align: center;
 }
