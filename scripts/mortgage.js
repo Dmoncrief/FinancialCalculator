@@ -60,7 +60,7 @@ else{
     monthlyPayment = principleloanAmount * (equation1 / equation2);
     totalInterest = (monthlyPayment * loanLengthMonths) - principleLoanAmount;
     outputElement.setAttribute("class", "form-control-plaintext");
-    outputElement.value = A $${principleAmount} "loan at" ${interestRate * 100}% "interest for" ${loanLengthMonths / 12} "years would have a" $${monthlyPayment.tofixed(2)};
+    outputElement.value = 'A $'${principleAmount} "loan at" ${interestRate * 100}% "interest for" ${loanLengthMonths / 12} 'years would have a $'${monthlyPayment.tofixed(2)};
 }
 
 // clears all fields----------------------------
